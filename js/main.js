@@ -154,8 +154,8 @@
         // Testimonials Slider
         $(".testimonials.owl-carousel").owlCarousel({
             nav: true, // Show next/prev buttons.
-            items: 3, // The number of items you want to see on the screen.
-            loop: false, // Infinity loop. Duplicate last and first items to get loop illusion.
+            items: 5, // The number of items you want to see on the screen.
+            loop: true, // Infinity loop. Duplicate last and first items to get loop illusion.
             navText: false,
             margin: 25,
             responsive : {
