@@ -127,6 +127,11 @@
             }, 500);
         });
 
+        var birth_year = 1993;
+        var this_year = (new Date()).getFullYear();
+
+        $('.age-value').text(this_year - birth_year);
+
         // Portfolio hover effect init
         $(' #portfolio_grid > figure ').each( function() { $(this).hoverdir(); } );
 
