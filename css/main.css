@@ -1424,9 +1424,10 @@ body > footer .copyrights {
 
 .portfolio-grid figure {
   width: 33.33333%;
-  height: 22.22222%;
+  height: 206px;
   float: left;
   padding: 3px;
+  margin-bottom: 5px;
 }
 
 .portfolio-grid img {
@@ -2247,7 +2248,7 @@ blockquote footer, blockquote small, blockquote .small {
 @media only screen and (max-width: 1320px) {
   .portfolio-grid figure {
     width: 33.33333%;
-    height: 22.22222%;
+    height: 206px;
   }
 }
 
@@ -2486,7 +2487,7 @@ blockquote footer, blockquote small, blockquote .small {
 @media only screen and (max-width: 769px) {
   .portfolio-grid figure {
     width: 50%;
-    height: 33.33333%;
+    height: 165px;
   }
 
   .home-page-block h2 {
@@ -2543,7 +2544,7 @@ blockquote footer, blockquote small, blockquote .small {
 @media only screen and (max-width: 480px) {
   .portfolio-grid figure {
     width: 100%;
-    height: 66.66666%;
+    height: 197px;
   }
 
   .home-page-block h2 {
