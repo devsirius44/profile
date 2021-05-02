@@ -2550,8 +2550,3 @@ blockquote footer, blockquote small, blockquote .small {
     font-size: 16px;
   }
 }
-
-figure {
-  min-width: 150px;
-  min-height: 100px;
-}
