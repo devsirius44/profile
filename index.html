@@ -19,9 +19,6 @@
   <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
   <link rel="stylesheet" href="css/main.css" type="text/css">
 
-  <script src="js/jquery-2.1.3.min.js"></script>
-  <script src="js/modernizr.custom.js"></script>
-
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
@@ -102,7 +99,8 @@
                 <div class="row">
                   <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="photo">
-                      <img src="images/photo.jpg" alt="" loading="lazy">
+                      <!-- <img src="images/photo.jpg" alt="" loading="lazy"> -->
+                      <canvas id="canvas-image-blending"></canvas>
                     </div>
                   </div>
 
@@ -200,7 +198,9 @@
                     And recently I am using new AI products DALL-E2 and GPT-4 from 
                     <a href="https://openai.com/">openai.com</a> for some projects and to be sure you will love them too!<br>
                   </div>
-
+                  <div class="col-sm-6 col-md-6 col-lg-6" style="display: flex; justify-content: center;">
+                    <canvas id="star" width="300" height="300"></canvas>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1120,6 +1120,8 @@
     <div class="copyrights">© 2023 All rights reserved.</div>
   </footer>
 
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/pages-switcher.js"></script>
   <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
@@ -1132,7 +1134,12 @@
   <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
   <script type="text/javascript" src="js/jquery.googlemap.js"></script>
+  <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+  <script type="text/javascript" src="js/granim.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <script src='https://unpkg.com/zdog@1/dist/zdog.dist.min.js'></script>
+  <script src='https://unpkg.com/animejs@3.0.1/lib/anime.min.js'></script>
+  <script type="text/javascript" src="js/star.js"></script>
 </body>
 
 </html>
