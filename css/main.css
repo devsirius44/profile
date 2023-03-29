@@ -856,8 +856,8 @@ body > footer .copyrights {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.photo #canvas-image-blending {
-  max-width: 280px;
+
+#canvas-interactive {
   position: absolute;
   display: block;
   width: 100%;

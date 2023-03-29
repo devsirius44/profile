@@ -100,25 +100,36 @@
             }
             new cursoreffects.fairyDustCursor();
             var granimInstance = new Granim({
-                element: '#canvas-image-blending',
+                element: '#canvas-interactive',
                 direction: 'top-bottom',
                 isPausedWhenNotInView: true,
-                image : {
-                    source: '../images/photo.jpg',
-                    blendingMode: 'soft-light',
-                },
+                elToSetClassOn: '.page',
+                stateTransitionSpeed: 500,
                 states : {
                     "default-state": {
                         gradients: [
-                            ['#29323c', '#485563'],
-                            ['#FF6B6B', '#556270'],
-                            ['#80d3fe', '#7ea0c4'],
-                            ['#f0ab51', '#eceba3']
+                            ['#f5f5f5', '#f5f5d5'],
+                            ['#e5c5e5', '#95f5f5']
                         ],
-                        transitionSpeed: 7000
+                        transitionSpeed: 3000
+                    },
+                    "violet-state": {
+                        gradients: [
+                            ['#9D50BB', '#6E48AA'],
+                            ['#4776E6', '#8E54E9']
+                        ],
+                        transitionSpeed: 2000
+                    },
+                    "orange-state": {
+                        gradients: [ ['#AA4E50', '#C99423'] ],
+                        loop: false
                     }
                 }
             });
+            // $('.pt-trigger').on("click", function (e) {
+            //     e.preventDefault();
+            //     granimInstance.changeState(['violet-state', 'default-state', 'orange-state'][Math.floor(Math.random()*3)]);
+            // });
         })
         .on('resize', function() { //Resize
              mobileMenuHide();
