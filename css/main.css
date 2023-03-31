@@ -389,7 +389,7 @@ body > footer .copyrights {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: #fff;
+  background: #98bec8;
 }
 
 .preloader-animation {
@@ -434,6 +434,28 @@ body > footer .copyrights {
   border-top-color: #2196F3;
   -webkit-animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
   animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
+}
+
+.ml7 {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
 }
 
 @-webkit-keyframes rotation{

@@ -89,7 +89,7 @@
     $(window)
         .on('load', function() { //Load
             // Animation on Page Loading
-            $(".preloader").fadeOut("slow");
+            $(".preloader").fadeOut(2000);
 
             // initializing page transition.
             var ptPage = $('.subpages');
